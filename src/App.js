@@ -29,22 +29,22 @@ function App() {
         }
     ]
 
-  return (
-    <div className="App">
-        <ResponsiveNavigation
-            navLinks={ navLinks }
-            logo={ logo }
-            background="#fff"
-            hoverBackground="#ddd"
-            linkColor="#777"
-        />
-        <Router>
-            <About path="/about" />
-            <Contact path="/contact" />
-            <Home path="/home" />
-        </Router>
-    </div>
-  );
+    return (
+        <div className="App">
+            <ResponsiveNavigation
+                navLinks={ navLinks }
+                logo={ logo }
+                background="#fff"
+                hoverBackground="#ddd"
+                linkColor="#777"
+            />
+            <Router>
+                <About path="/about" />
+                <Contact path="/contact" />
+                <Home path="/home" />
+            </Router>
+        </div>
+    );
 }
 
 export default App;

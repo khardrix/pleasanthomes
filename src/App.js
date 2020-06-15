@@ -43,9 +43,9 @@ function App() {
                 linkColor="#777"
             />
             <Router>
+                <Home path="/home" />
                 <About path="/about" />
                 <Contact path="/contact" />
-                <Home path="/home" />
             </Router>
         </div>
     );

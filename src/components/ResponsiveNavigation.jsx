@@ -9,6 +9,10 @@ function ResponsiveNavigation ({ navLinks, background, hoverBackground, linkColo
         // "true" and "false" (can also use "0" for "false")
     const [ navOpen, setNavOpen ] = useState(false)    
 
+    // <figure className="image-logo" onClick={ () => { setNavOpen(!navOpen) } }>
+    //     <img src={ logo } height="80px" width="80px" alt="toolbar-logo" />
+    // </figure> {/* "<figure></figure>" is "Semantic HTML" */}
+
     return(
         <nav 
             className="responsive-toolbar"
@@ -19,7 +23,7 @@ function ResponsiveNavigation ({ navLinks, background, hoverBackground, linkColo
                 className={ navOpen ? 'active' : '' }
             >
                 <figure className="image-logo" onClick={ () => { setNavOpen(!navOpen) } }>
-                    <img src={ logo } height="40px" width="40px" alt="toolbar-logo" />
+                    <img src={ logo } height="80vw" width="80vw"  alt="toolbar-logo" />
                 </figure> {/* "<figure></figure>" is "Semantic HTML" */}
                 { navLinks.map((link, index) => 
                     <li

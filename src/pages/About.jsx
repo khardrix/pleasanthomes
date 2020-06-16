@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
-// import ReactDOM from 'react-dom';
-import Slider from './components/slider';
-// import images from './images';
+import Slider from '../components/Slider.jsx';
 import '../assets/scss/base.scss';
-// import '../assets/styles/about.styles.css';
-// import House from '../images/Smith_House.png';
 
 
 const images = [
@@ -29,7 +25,7 @@ class About extends Component {
                 <br></br>
                 { /**<img id="about-house-img" src={ House } alt="House" /> */}
 
-                <Slider slides={images} autoPlay={2} />
+                <Slider slides={images} autoPlay={2} width='331.5px' height='225px' />
 
                 <br></br>
                 <p className="about-paragraphs" id="about-second-paragraph">

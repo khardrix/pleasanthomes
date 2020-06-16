@@ -70,6 +70,7 @@ nav.responsive-toolbar {
             figure {
                 margin-inline-start: 2px;
                 position: fixed;
+                z-index: 100;
                 left: 0px;
                 top: 0px;
                 height: 5vw;

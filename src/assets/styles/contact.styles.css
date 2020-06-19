@@ -1,0 +1,11 @@
+.contact-div {
+    /* background-color: #c9b8a4; */
+    /* background-image: url('/src/components/img/forest-during-dawn.jpg'); */
+    /* background-image: url("/src/images/Smith_House.png"); */
+    background-image: url("/src/components/img/forest-during-dawn.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 85.8vh;
+}

@@ -1,7 +1,7 @@
 .form-container {
     background-color: #ffffff;
     width: 40vw;
-    height: 20vw;
+    height: 15vw;
     margin: 0 auto;
     padding: 5vh;
     border: .5vh solid #00ba9b; 
@@ -12,8 +12,32 @@
 .form-group {
     margin-bottom: 10px;
     align-content: center;
+    display: flex;
+    align-items: center;
 }
 
+/*
 .form-group label {
     margin-left: 5%;
+    margin-right: 3%;
+}
+*/
+
+.form-label-name {
+    margin-left: 30.5%;
+    margin-right: 2%;
+}
+
+.form-label-email {
+    margin-left: 19.9%;
+    margin-right: 2%;
+}
+
+.form-label-message {
+    margin-left: 26.7%;
+    margin-right: 2%;
+}
+
+.btn_btn-primary {
+    margin-top: 5%;
 }

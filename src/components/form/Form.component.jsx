@@ -20,7 +20,7 @@ class Form extends Component {
                       method="POST"
                 >
                     <div className="form-group">
-                        <label htmlFor="name">Name: </label>
+                        <label htmlFor="name" className="form-label-name">Name: </label>
                         <input type="text" 
                                className="form-control" 
                                value={this.state.name} 
@@ -28,7 +28,7 @@ class Form extends Component {
                         />
                     </div>
                     <div className="form-group">
-                        <label htmlFor="email">Email address: </label>
+                        <label htmlFor="email" className="form-label-email">Email address: </label>
                         <input type="email" 
                                className="form-control" 
                                aria-describedby="emailHelp" 
@@ -37,14 +37,14 @@ class Form extends Component {
                         />
                     </div>
                     <div className="form-group">
-                        <label htmlFor="message">Message: </label>
+                        <label htmlFor="message" className="form-label-message">Message: </label>
                         <textarea className="form-control" 
                                   rows="5" 
                                   value={this.state.message} 
                                   onChange={this.onMessageChange.bind(this)} 
                         />
                     </div>
-                    <button type="submit" className="btn btn-primary">Submit</button>
+                    <button type="submit" className="btn_btn-primary">Submit</button>
                 </form>
             </div>
         );

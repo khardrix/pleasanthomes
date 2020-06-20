@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import emailjs from 'emailjs-com';
-import './form.styles.css';
+import './Form.styles.css';
 
 const initialState = {
     name: '',

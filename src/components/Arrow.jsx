@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import React from 'react'
+// import React from 'react'
 import { css, jsx } from '@emotion/core'
 import leftArrow from './img/left-arrow.svg'
 import rightArrow from './img/right-arrow.svg'
@@ -31,7 +31,7 @@ const Arrow = ({ direction, handleClick }) => (
       }
     `}
   >
-    {direction === 'right' ? <img src={rightArrow} /> : <img src={leftArrow} />}
+    {direction === 'right' ? <img src={rightArrow} alt="right arrow" /> : <img src={leftArrow} alt="left arrow" />}
   </div>
 )
 

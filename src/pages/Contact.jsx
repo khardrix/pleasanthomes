@@ -9,7 +9,10 @@ class Contact extends Component {
         return(
             <div className="contact-div" style={{ backgroundImage:`url(${forest})` }}>
                 <h1>Contact Us</h1>
+
+                <h3>By Phone:</h3>
                 <p>Phone Number: (812)637-1058</p>
+                
                 <Form />
             </div>
         )

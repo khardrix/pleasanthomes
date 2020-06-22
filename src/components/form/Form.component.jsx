@@ -51,7 +51,7 @@ class Form extends Component {
                             <td style={{textAlign: 'right'}}>
                                 <label htmlFor="email" 
                                        className="form-label-email"
-                                       >Email address: 
+                                       >Email: 
                                 </label>
                             </td>
                             <td style={{textAlign: 'left'}}>
@@ -126,6 +126,10 @@ class Form extends Component {
 
         if(!this.state.email.includes('.')){
             emailError = "invalid email";
+        }
+
+        if(!this.state.message){
+            messageError = "message cannot be blank";
         }
 
         if(nameError || emailError || messageError){

@@ -47,6 +47,7 @@ function App() {
                 <About path="/about" />
                 <Contact path="/contact" />
             </Router>
+            <Home />
         </div>
     );
 }
